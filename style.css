@@ -6,19 +6,21 @@
 }
 
 body {
-    background-color: rgba(229, 247, 251, 1);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     max-width: 1050px;
     margin: 0px auto;
 }
 
 .header {
-    width: 850px;
+    width: 1050px;
     height: 90px;
     display: flex;
     padding: 16px;
     margin: 0;
     align-items: center;
+    box-sizing: border-box;
+    gap: 35%;
 }
 
 .header img {
@@ -36,12 +38,6 @@ body {
     font-size: 50px;
     letter-spacing: 0.2rem;
     color: rgba(221, 87, 80, 1);
-}
-
-button {
-    width: 90px;
-    height: 32px;
-    margin: 4px;
 }
 
 .body-image {
@@ -84,5 +80,16 @@ button {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 11px;
-    box-shadow: 12px 12px 5px rgb(133, 152, 202);;
+    box-shadow: 12px 12px 5px rgb(133, 152, 202);
+}
+
+footer {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.2rem;
+    color: rgba(221, 87, 80, 1);
+    width: 1050px;
+    background-color: rgb(252, 215, 213);
+    padding-bottom: 20px;
+    text-align: center;
 }
