@@ -35,13 +35,13 @@ This project is part of the studies on the fundamentals of HTML and CSS in the R
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">About the Projec</a>
+  <a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Project">About the Projec</a>
 </p>
 
 <br>
 
-![imagem-da-pagina-web](https://raw.githubusercontent.com/ruhancmendes/Pagina-de-receita/refs/heads/main/img/img-readme.png)
+![imagem-da-pagina-web](https://raw.githubusercontent.com/ruhancmendes/Local-Turistico/refs/heads/main/image/resultado%20final.png)
 
 ## 🛠️ Technologies
 
@@ -52,7 +52,7 @@ This project was developed using the following tools and technologies:
 - Figma for design and prototyping.
 
 ## 📄 About the Project
-The goal of this project was to create a simple web page, applying the fundamentals of HTML and CSS. The focus was on:
+The goal of this project was to create a web page about a tourist attraction using the fundamentals learned, without any prior guidance or predefined project. The focus is on:
 
 - Structuring content with semantic HTML.
 - Styling the page using CSS.
