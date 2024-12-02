@@ -1,11 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
 body {
     background-color: rgba(229, 247, 251, 1);
+    width: 100%;
+    max-width: 1050px;
+    margin: 0px auto;
 }
 
 .header {
-    width: 1000px;
+    width: 850px;
     height: 90px;
-    display: inline-flex;
+    display: flex;
     padding: 16px;
     margin: 0;
     align-items: center;
@@ -22,10 +32,57 @@ body {
     margin-block-start: 0;
     margin-block-end: 0;
     margin: 4px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.2rem;
+    color: rgba(221, 87, 80, 1);
 }
 
 button {
-    width: 100px;
+    width: 90px;
     height: 32px;
     margin: 4px;
+}
+
+.body-image {
+    width: 1050px;
+    margin: 0;
+}
+
+.container {
+    width: 1050px;
+    background-color: rgb(252, 215, 213);
+    padding-bottom: 20px;
+}
+
+.container-body {
+    display: flex;
+}
+
+.container .principal {
+    width: 660px;
+    margin: 0 25px 5px 15px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: rgba(74, 81, 96, 1);
+}
+
+.container h2 {
+    margin:0px 15px 15px;
+    font-family: "Alice", serif;
+    font-size: 35px;
+    color:rgba(66, 95, 168, 1);
+}
+
+.container .info-box {
+    background-color: white;
+    margin: 0 20px 5px 5px;
+    border-radius: 5%;
+    width: 470px;
+    height: 445px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    box-shadow: 12px 12px 5px rgb(133, 152, 202);;
 }
